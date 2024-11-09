@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
+import Sidebar from '../Sidebar/Sidebar';
 
 const TeamMember = ({ name, image, description }) => (
   <div className="team-member">
@@ -10,7 +11,10 @@ const TeamMember = ({ name, image, description }) => (
 );
 
 const AboutUs = () => (
+<div className="sideUs">
+    <Sidebar/>
   <div className="about-us">
+    
     <h1>About Us</h1>
     <div className="team-info">
       <h2>IIITech Geeks</h2>
@@ -50,6 +54,7 @@ const AboutUs = () => (
         description="Designed and Developed the platform's UI, created Figma layouts, built React components, implemented a dashboard, and collaborated for integration."
       />
     </div>
+  </div>
   </div>
 );
 

@@ -1,7 +1,7 @@
 .TrendCard{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     /* background-color: var(--cardColor); */
     background-color: #1a2b4f;
     padding: 1rem;
@@ -13,7 +13,7 @@
 .trend{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0rem;
 }
 
 

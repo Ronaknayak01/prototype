@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin-left: 180px;
+    margin-left: 10px;
     max-width: 1200px;
     text-align: center;
     padding: 50px 20px;
@@ -95,4 +95,7 @@ body {
     color: #95d5b2; /* Green accent for roles */
     font-size: 1em;
     margin-bottom: 10px;
+}
+.sideUs{
+    display: flex;
 }

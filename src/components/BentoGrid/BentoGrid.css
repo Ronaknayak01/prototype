@@ -2,14 +2,44 @@
 .bento-grid {
     display: grid;
     grid-template-columns: 3fr 1fr 2fr; /* Adjusts columns for different widths */
-    grid-template-rows: 1fr 2fr; /* First row shorter, second row taller */
+    grid-template-rows: 1fr 4fr; /* First row shorter, second row taller */
     gap: 20px;
     padding: 20px;
+    width: 81vw;
     background-color: #0e1b3a;
     color: #ffffff;
 }
 
 /* First Row Items */
+.bento-item:nth-child(1) {
+    background-color: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+    height: 100px;
+    padding: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.bento-item:nth-child(2) {
+    background-color: #1a2b4f;
+    height: 100px;
+    padding: 0px;
+    margin-bottom: -100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.bento-item:nth-child(3) {
+    background-color: #1a2b4f;
+    height: 100px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .bento-item {
     background-color: #1a2b4f;
     padding: 20px;
@@ -17,8 +47,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
 /* Custom Styling for Large Item */
@@ -64,3 +93,5 @@
     width: 50%;
     border-radius: 30px;
 }
+
+

@@ -31,7 +31,7 @@
   }
   
   .action-button {
-    background-color: #007bff;
+    background: var(--buttonBg);
     color: white;
     border: none;
     padding: 10px 20px;
