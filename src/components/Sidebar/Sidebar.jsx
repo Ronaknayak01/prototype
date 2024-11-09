@@ -9,7 +9,7 @@ function Sidebar() {
       <ul className="sidebar-menu">
         <Link to='/dashboard'><li className="sidebar-item active">Dashboard</li></Link>
         <Link to='/chatbot'><li className="sidebar-item">Chatbot</li></Link>
-        <li className="sidebar-item">Billing</li>
+        <Link to='/community'><li className="sidebar-item">Community</li></Link>
         <li className="sidebar-item">RTL</li>
         <li className="sidebar-heading">Account Pages</li>
         <li className="sidebar-item">Profile</li>
