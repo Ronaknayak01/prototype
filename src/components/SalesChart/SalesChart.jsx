@@ -1,39 +1,42 @@
-// SalesChart.js
 import React from 'react';
-import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
-
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
+import './SalesChart.css';
 
 const SalesChart = () => {
-  const data = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    datasets: [
-      {
-        label: "Sales Overview",
-        data: [200, 100, 150, 80, 300, 200, 350, 250, 400, 320, 450, 500],
-        fill: true,
-        backgroundColor: "rgba(54, 162, 235, 0.2)",
-        borderColor: "rgba(54, 162, 235, 1)",
-      }
-    ]
+  const handleConnectToVR = () => {
+    alert('Connecting to VR...');
   };
 
-  const options = {
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-    },
-    scales: {
-      y: {
-        beginAtZero: true,
-        max: 500,
-        ticks: { stepSize: 100 }
-      }
-    }
+  const handleFindDuo = () => {
+    alert('Finding Duo...');
   };
 
-  return <Line data={data} options={options} />;
+  return (
+    <div className="sales-chart-container">
+      {/* Left Image with "Connect to VR" Button */}
+      <div className="chart-section">
+        <img
+          src="src/assets/freepik__candid-image-photography-natural-textures-highly-r__3902-removebg-preview.png"
+          alt="Sales Overview VR"
+          className="sales-chart-image"
+        />
+        <button className="action-button" onClick={handleConnectToVR}>
+          Connect to VR
+        </button>
+      </div>
+
+      {/* Right Image with "Find Duo" Button */}
+      <div className="chart-section">
+        <img
+          src="src/assets/freepik__3d-model-octane-render-volumetric-highly-detailed-__61968-removebg-preview.png"
+          alt="Find Duo"
+          className="sales-chart-image"
+        />
+        <button className="action-button" onClick={handleFindDuo}>
+          Find Duo
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default SalesChart;

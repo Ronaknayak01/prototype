@@ -1,27 +1,35 @@
 export const TrendData= [
     {
-      name: "Minions",
+      name: "NowPlaying",
       shares: 97,
     },
     {
-      name: "Avangers",
+      name: "K-POP",
       shares: 80.5,
     },
     {
-      name: "Zainkeepscode",
+      name: "InTheStudio",
       shares: 75.5,
     },
     {
-      name: "Reactjs",
+      name: "RnBVibes",
       shares: 72,
     },
     {
-      name: "Elon Musk",
+      name: "Drake",
       shares: 71.9,
     },
     {
-      name: "Need for Speed",
+      name: "Leave The Door Open",
       shares: 20,
+    },
+    {
+      name: "Imagine Dragons",
+      shares: 75.5,
+    },
+    {
+      name: "Arctic Monkeys",
+      shares: 75.5,
     },
   ];
   

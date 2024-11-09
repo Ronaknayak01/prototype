@@ -1,6 +1,7 @@
-import postPic1 from '../img/yoo.jpg'
-import postPic2 from '../img/yoo3.jpg'
+import postPic1 from '../img/yoo3.jpg'
+import postPic2 from '../img/yoo5.avif'
 import postPic3 from '../img/yoo2.jpg'
+import postPic4 from '../img/yoo4.avif'
 
 
 
@@ -26,5 +27,13 @@ export const PostsData = [
         desc: "At Archery Festival",
         likes: 800,
         liked: false
-    }
+    },
+    {
+        img:postPic4,
+        name: "Salena Gomez",
+        desc: "At Archery Festival",
+        likes: 800,
+        liked: false
+    },
+    
 ]

@@ -7,10 +7,9 @@ const Community = () => {
   return (
     <div className="Home">
         <ProfileSide/>
-        <PostSide/>
+        <PostSide/> 
         <RightSide/>
     </div>
-    
   )
 }
 

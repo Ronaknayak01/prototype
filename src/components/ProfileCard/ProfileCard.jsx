@@ -1,6 +1,6 @@
 import React from "react";
-import Cover from "../../img/cover.jpg";
-import Profile from "../../img/profileImg.jpg";
+import Cover from "../../img/profile123.avif";
+import Profile from "../../img/GraiceAbrams.jpeg";
 import { Link } from "react-router-dom";
 import "./ProfileCard.css";
 
@@ -14,15 +14,15 @@ const ProfileCard = () => {
       </div>
 
       <div className="ProfileName">
-        <span>Zendaya MJ</span>
-        <span>Senior UI/UX Designer</span>
+        <span>Gracie Abrams</span>
+        <span>YG Entertainment</span>
       </div>
 
       <div className="followStatus">
         <hr />
         <div>
           <div className="follow">
-            <span>6,890</span>
+            <span>732,890</span>
             <span>Followings</span>
           </div>
           <div className="vl"></div>
@@ -35,7 +35,7 @@ const ProfileCard = () => {
             <>
               <div className="vl"></div>
               <div className="follow">
-                <span>3</span>
+                <span>23</span>
                 <span>Posts</span>
               </div>
             </>
