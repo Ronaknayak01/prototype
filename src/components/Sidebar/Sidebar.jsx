@@ -1,13 +1,14 @@
 import React from 'react';
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <h2 className="sidebar-title">Inspira</h2>
       <ul className="sidebar-menu">
-        <li className="sidebar-item active">Dashboard</li>
-        <li className="sidebar-item">Tables</li>
+        <Link to='/dashboard'><li className="sidebar-item active">Dashboard</li></Link>
+        <Link to='/chatbot'><li className="sidebar-item">Chatbot</li></Link>
         <li className="sidebar-item">Billing</li>
         <li className="sidebar-item">RTL</li>
         <li className="sidebar-heading">Account Pages</li>
