@@ -23,12 +23,12 @@ const ProfileCard = () => {
         <div>
           <div className="follow">
             <span>732,890</span>
-            <span>Followings</span>
+            <span>Followers</span>
           </div>
           <div className="vl"></div>
           <div className="follow">
-            <span>1</span>
-            <span>Followers</span>
+            <span>18</span>
+            <span>Following</span>
           </div>
 
           {ProfilePage && (

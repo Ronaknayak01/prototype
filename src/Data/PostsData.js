@@ -9,7 +9,7 @@ export const PostsData = [
     {
         img: postPic1,
         name: 'Tzuyu',
-        desc: "Happy New Year all friends! #2023",
+        desc: "Happy New Year all friends! #2024",
         likes: 2300,
         liked: true
     },

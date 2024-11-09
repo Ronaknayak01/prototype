@@ -27,7 +27,7 @@
   transition: background 0.3s ease;
 }
 
-.sidebar-item:hover, .sidebar-item.active {
+.sidebar-item:hover , .sidebar-item.active {
   /* background-color: #1e3a5a; */
   background: var(--buttonBg);
 }
